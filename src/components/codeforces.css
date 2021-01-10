@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
+h1 {
+  font-family: "Redressed", cursive;
+  text-align: center;
+}
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+.contest-heading {
+  background-color: black;
+  color: white;
+}
+.contest-list {
+  background-color: wheat;
+  color: red;
+}
+.contest-list:hover {
+  background-color: red;
+  color: wheat;
+}
+th,
+td {
+  padding: 10px 0px;
+}
+.nameCol {
+  width: 40%;
+}
+.action {
+  text-align: center;
+}
